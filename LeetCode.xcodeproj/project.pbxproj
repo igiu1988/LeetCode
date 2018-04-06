@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D340B50920763F8400600521 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D340B50820763F8400600521 /* main.swift */; };
+		D340B51020763FAF00600521 /* LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D340B50F20763FAF00600521 /* LongestPalindrome.swift */; };
+		D340B51320763FD200600521 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D340B51220763FD200600521 /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		D340B50520763F8400600521 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		D340B50820763F8400600521 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D340B50F20763FAF00600521 /* LongestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindrome.swift; sourceTree = "<group>"; };
+		D340B51220763FD200600521 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,19 @@
 		D340B50720763F8400600521 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				D340B51120763FC300600521 /* Common */,
 				D340B50820763F8400600521 /* main.swift */,
+				D340B50F20763FAF00600521 /* LongestPalindrome.swift */,
 			);
 			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		D340B51120763FC300600521 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D340B51220763FD200600521 /* StringExtension.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +135,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D340B50920763F8400600521 /* main.swift in Sources */,
+				D340B51020763FAF00600521 /* LongestPalindrome.swift in Sources */,
+				D340B51320763FD200600521 /* StringExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

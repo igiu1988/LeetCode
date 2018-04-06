@@ -8,5 +8,10 @@
 
 import Foundation
 
-print("Hello, World!")
+//let some = "wangyang"
+//print("\(some.charAt(1))")
+
+
+let str = "acbabcdmdcbamaj"
+print("\(longestPalindrome(s: str))")
 
